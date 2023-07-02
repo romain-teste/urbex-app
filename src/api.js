@@ -47,7 +47,7 @@ export const filterPlaces = async (filters) => {
   }
 };
 
-// Fonction pour touver les commantairs lié à un lieu en fontion de sont id
+// Fonction pour touver les commantairs lié à un lieu en fontion de sont id.
 export const comPlace = async (idlieu) => {
   try {
     console.log("lieuID=" + idlieu);
