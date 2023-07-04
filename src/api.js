@@ -9,7 +9,7 @@ export const getAllPlaces = async () => {
   }
 };
 
-// Fonction pour récupérer les détails d'un lieu spécifique
+// Fonction pour récupérer les détails d'un lieu spécifique.
 export const getPlaceById = async (id) => {
   try {
     const response = await fetch(`http://localhost:8080/demo/lieu/${id}`);
